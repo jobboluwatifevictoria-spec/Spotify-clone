@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  height: 13vh;
+  display: flex;
+  gap: 75vh;
+}
+.spfwlo {
+  margin-top: 3vh;
+  margin-left: 13vh;
+}
+.sec {
+  margin-top: 5vh;
+}
+.premium {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  position: relative;
+  cursor: pointer;
+}
+.premium:hover .dropdown {
+  color: rgb(30, 215, 96);
+  display: block;
+}
+.dropdown {
+  background-color: rgb(40, 40, 40);
+  height: 75vh;
+  width: 350px;
+  position: absolute;
+  display: none;
+  top: 39px;
+  padding-top: 5vh;
+  padding-left: 4vh;
+}
+.ind {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+  line-height: 30px;
+}
+.dni {
+  text-decoration: none;
+}
+.one {
+  font-size: 13px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: rgb(197, 189, 181);
+  line-height: 19.5px;
+  padding-top: 1vh;
+}
+.pd {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+  line-height: 30px;
+  margin-top: 8vh;
+}
+.support {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 5vh;
+}
+.support:hover {
+  color: rgb(30, 215, 96);
+}
+.download {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 5vh;
+}
+.download:hover {
+  color: green;
+}
+.btn {
+  height: 4vh;
+  margin-left: 7vh;
+}
+.downloa {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: rgb(217, 218, 220);
+  margin-left: 5vh;
+  line-height: 24px;
+}
+.downloa:hover {
+  color: rgb(30, 215, 96);
+}
+.banner {
+  background-image: url(image/banner.jpg);
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+.text {
+  /* background-color: aqua; */
+  width: 145vh;
+  height: 85vh;
+  margin-left: 35vh;
+  padding-top: 28vh;
+  text-align: center;
+}
+.ds {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+}
+.play {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  margin-top: 5vh;
+}
+.microsoft {
+  margin-top: 5vh;
+  width: 60vh;
+}
+/* .microsoft:hover{
+    margin-top: 15px;
+} */
+.ddf {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+.white {
+  background-color: white;
+  width: 100%;
+  height: 42vh;
+}
+.listen {
+  font-size: 32px;
+  font-weight: 700;
+  font-family: sans-serif;
+  text-align: center;
+}
+.using {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 4vh;
+}
+.three {
+  margin-top: 5vh;
+  text-align: center;
+}
+.google {
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+.cherry {
+  background-image: url(image/platform_cherries.jpg);
+  width: 100%;
+  height: 73vh;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.ona {
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+  /* text-align: center; */
+  margin-top: 55vh;
+  position: absolute;
+  margin-left: 70vh;
+}
+.mctc {
+  padding-top: 65vh;
+}
+.Mobile {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 60vh;
+  margin-right: 1vh;
+}
+.computer {
+  font-size: 16px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: white;
+  margin-right: 1vh;
+}
+.footer {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+  padding-top: 20vh;
+  padding-left: 10vh;
+}
+.ftr {
+  display: flex;
+  gap: 70px;
+}
+.company {
+  font-size: 12px;
+  font-weight: 900;
+  font-family: sans-serif;
+  color: rgb(143, 147, 150);
+  letter-spacing: 0.96px;
+  line-height: 16.8px;
+}
+.com {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+}
+.about {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  font-family: sans-serif;
+}
+.about:hover {
+  color: rgb(30, 195, 56);
+}
+.a {
+  text-decoration: none;
+}
+.small {
+  margin-top: 37vh;
+  display: flex;
+  gap: 30px;
+}
+.legal {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: rgb(143, 143, 143);
+}
+.legal:hover {
+  color: rgb(30, 195, 56);
+}
+.uks{
+    /* background-color: blue; */
+    width: 150px;
+    height: 50px;
+    margin-left: 180vh;
+    margin-top: -9vh;
+}
+.cs{
+   font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: rgb(143, 143, 143);
+  margin-top: 2vh; 
+}

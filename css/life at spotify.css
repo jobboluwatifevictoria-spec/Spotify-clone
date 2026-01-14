@@ -1,0 +1,218 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+    height: 200vh;
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    display: flex;
+    padding-top: 10vh;
+}
+nav button{
+    background-color: rgb(46, 43, 43);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+border: 3px solid rgb(46, 43, 43);
+}
+nav button:hover{
+    height: 55px;
+    border-radius: 44px;
+    background-color:rgb(53, 51, 51) ;
+}
+.pic{
+    padding-left: 60px;
+}
+.hire{
+    color: white;
+    width: 800px;
+    height: 50px;
+    /* background: grey; */
+    margin-left: 200px;
+    display: flex;
+    gap: 20px;
+}
+/* .dee{
+    width: 150px;
+    height: 50px;
+} */
+.job{
+    color: black;
+    width: 100px;
+    height: 20px;
+    border-radius: 40px;
+    /* background-color: white; */
+    margin-left: 250px;
+
+}
+.job button{
+    background-color: white;
+    color: black;
+}
+.job button:hover{
+    background-color: rgb(13, 180, 13);
+    color: black;
+}
+.slideshow {
+    width: 100%;
+    height: 90vh;
+    overflow: scroll;
+    border-radius: 10px;
+    perspective: 1000px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.slideshow::-webkit-scrollbar{
+    display: none;
+}
+.slides {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    animation: slide 30s infinite;
+    gap: 50px;
+    /* overflow: scroll; */
+}
+
+.slide{
+    width: 700px;
+    height: 80vh;
+    position: relative;
+    /* object-fit: cover; */
+    /* border: 3px solid blue; */
+    /* gap: 50px; */
+    display: flex;
+    border-radius: 18px;
+    padding: 20px;
+    box-sizing: border-box;
+    /* transform: rotateY(90deg); */
+    /* opacity: 2; */
+    /* transition: transform 1ms ease-in-out, opacity 1ms ease-in-out; */
+}
+.slide:hover{
+    width: 700px;
+    height: 80vh;
+    border-radius: 10px;
+    transform: rotateY(30deg);
+    opacity: 2;
+    transition: transform 1s ease, opacity 1s ease ;
+}
+/* Animation */
+@keyframes slide {
+    0%   { transform: translateX(0); }
+    15%  { transform: translateX(-15%); }
+
+    30%  { transform: translateX(-30%); }
+    45%  { transform: translateX(-45%); }
+
+    60%  { transform: translateX(-60%); }
+    85%  { transform: translateX(-85%); }
+
+    /* 90%  { transform: translateX(-90%); } */
+    /* 100% { transform: translateX(-100%); } */
+}
+/* .scroll5{
+    width: 100%;
+    height: 70vh;
+    /* margin: auto; */
+    /* position: relative; */
+    /* background-color: gray; */
+           /* margin-left: 50px; */
+           /* border-radius: 10px;
+           overflow-x: scroll; */
+/* } */ */
+/* .scroll-image5{
+    display: flex;
+    gap: 20px;
+     animation-duration: 2s;
+    position: absolute;
+    animation-timing-function: ease-in-out;
+    animation-delay: 500ms;
+    animation-iteration-count: infinite; */
+    /* overflow-x: scroll; */
+    /* background-color: black; */
+/* } */
+/* .scroll-image5 img{
+        /* position: absolute; */
+    /* border-radius: 10px;
+    transition:opacity 2s ease-in-out;
+} */ 
+/* .scroll5::-webkit-scrollbar{
+    display: none;
+} */
+/* .scroll-image5 img:nth-child(1){
+    /* animation: slide 5s infinite; */
+    /* animation-delay: 0s;
+    animation: 3s forwards;
+}
+.scroll-image5 img:nth-child(2){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+}
+.scroll-image5 img:nth-child(3){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+}
+.scroll-image5 img:nth-child(4){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+}
+.scroll-image5 img:nth-child(5){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+}
+.scroll-image5 img:nth-child(6){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+} */
+/* /* .scroll-image5 img:nth-child(7){
+    animation: slide 5s infinite;
+    animation-delay: 0s;
+}
+@keyframes scroll5{
+    0%, 33% { opacity: 1;}
+    33%, 100% { opacity: 0;}
+} */
+.see{
+    display: flex;
+} 
+ 
+input{
+    width: 95%;
+    height: 15vh;
+    background-color: white;
+    border-radius: 70px;
+margin-top: 20px;
+margin-left: 20px;
+padding-left: 140px;
+font-size: 30px;
+} */
+.circle{
+    width: 5%;
+    height: 150px;
+    color: white;
+    background-color: blue;
+    clip-path: circle(80%);
+    margin-left: 600px;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.curve{
+     width: 5%;
+    height: 150px;
+    color: white;
+    background-color: black;
+    clip-path: circle(20%);
+    margin-left: 1350px;
+    font-size: 40px;
+    padding-top: 100px;
+    padding-left: 10px;
+    margin-top: -180px;
+}

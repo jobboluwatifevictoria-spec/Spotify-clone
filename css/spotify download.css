@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    position: sticky;
+}
+.part1{
+    margin-left: 150px;
+    margin-top: 10px;
+}
+.part2{
+    display: flex;
+    margin-left: 380px;
+    gap: 30px;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.part2 a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.part2 a:hover{
+    color: green;
+}
+.line{
+    width: 2px;
+    height: 15px;
+    background-color: white;
+}
+.background{
+    width: 100%;
+    height: 80vh;
+}
+.down{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: -400px;
+    margin-left: 450px;
+}
+.down2{
+     color: white;
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-left: 300px;
+}
+.store{
+    width: 30%;
+    height: 20vh;
+    margin-left: 510px;
+    margin-top: 20px;
+}
+.store:hover{
+    width: 31%;
+    height: 22vh;
+    margin-top: 18px;
+    margin-left: 509px;
+}
+.from{
+    color: white;
+    margin-left: 590px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+.from a{
+    color: white;
+}
+.from a:hover{
+    color: blue;
+}
+.background2{
+    background-color: white;
+    width: 100%;
+    height: 35vh;
+        /* border: 3px solid black; */
+}
+.mobile{
+   margin-top:15vh;
+   margin-left: 450px;
+   font-size: 25px;
+   font-weight: 900;
+}
+.mobile2{
+       margin-left: 460px;
+       font-size: 14px;
+       margin-top: 25px;
+       font-weight: 200;
+}
+.mobile3{
+    display: flex;
+    margin-left: 460px;
+    gap: 20px;
+}
+.this{
+    padding-top: 25px;
+}
+.background3{
+    width: 100%;
+    height: fit-content;
+}
+.one{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: -130px;
+    margin-left: 420px;
+}
+.two{
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 350px;
+    margin-top: 30px;
+}
+.tww{
+    color: white;
+    text-decoration: none;
+}
+.tww:hover{
+    color: green;
+}
+.footer{
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+        margin-top: -10px;
+}
+.full-set{
+    color: white;
+    display: flex;
+    gap: 50px;
+    /* margin-top: 50px; */
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.full-set h3{
+    color: gray;
+    font-size: 12px;
+}
+.full-set a{
+    font-size: 14px;
+}
+.set2{
+    width: 12%;
+}
+.set2 a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.set2 a:hover{
+    color: green;
+}
+.set3{
+        width: 12%;
+}
+.set3 a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.set3 a:hover{
+    color: green;
+}
+.set4{
+          width: 12%;
+}
+.set4 a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.set4 a:hover{
+    color: green;
+}
+.set5{
+           width: 11%;
+}
+.set5 a{
+    color: white;
+    text-decoration: none;
+    line-height: 40px;
+}
+.set5 a:hover{
+    color: green;
+}
+.set6{
+           width: 15%;
+           height: 150px;
+           display: flex;
+           gap: 10px;
+}
+.a19{
+width: 30px;
+height: 5vh;
+background-color: rgb(41, 40, 40);
+padding-top: 10px;
+padding-left: 8px;
+clip-path: circle(45%);
+}
+.a20{
+width: 30px;
+height: 5vh;
+background-color: rgb(41, 40, 40);
+padding-top: 10px;
+padding-left: 8px;
+clip-path: circle(45%);
+}
+.a21{
+width: 30px;
+height: 5vh;
+background-color: rgb(41, 40, 40);
+padding-top: 10px;
+padding-left: 8px;
+clip-path: circle(45%);
+}
+.seen{
+    width: 70%;
+    height: 20vh;
+    margin-left: 100px;
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+font-size: 13px;
+}
+.seen a{
+    color:gray; 
+    text-decoration: none;
+}
+.seen a:hover{
+    color: green;
+}
+.sen{
+    display: flex;
+    gap: 20px;
+}
+.foot{
+    display: flex;
+}
+.dom{
+    color: gray;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.kin a{
+    color: gray;
+    text-decoration: none;
+}
+.ken{
+    margin-top: 15px;
+}
